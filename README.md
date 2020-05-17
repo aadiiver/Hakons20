@@ -4,7 +4,8 @@ Problem Statement: Develop a web portal for COVID-19 with data database to help 
 
 Tools used: HTML, CSS, PHP,XAMPP, Javascript
 
-1.Install Xampp and complete the installation.
+Steps to run:
+1.Install Xampp and complete the installation.<br>
 2.Run xampp(mysql & apache)
 3.one localhost and run the program
 4.Enter the username and password 

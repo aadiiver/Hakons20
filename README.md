@@ -7,12 +7,13 @@ Tools used: HTML, CSS, PHP,XAMPP, Javascript
 Steps to run:<br>
 1.Install Xampp and complete the installation.<br>
 2.Run xampp(mysql & apache).<br>
-3.One localhost and run the program.<br>
-4.Enter the username and password.<br>
-5.After login choose the option given below.<br>
-6.Add traveler.<br>
-7.Fill the form and click on done.<br>
-8.Now go bck and click on records.<br>
-9.Verify the data.<br>
+3.Import the regis.sql into a database named as registration.
+4.One localhost and run the program.<br>
+5.Enter the username and password.<br>
+6.After login choose the option given below.<br>
+7.Add traveler.<br>
+8.Fill the form and click on done.<br>
+9.Now go bck and click on records.<br>
+10.Verify the data.<br>
 
 In this way it works follow the procedure right manner.

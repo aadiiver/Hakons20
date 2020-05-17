@@ -7,7 +7,7 @@ Tools used: HTML, CSS, PHP,XAMPP, Javascript
 Steps to run:<br>
 1.Install Xampp and complete the installation.<br>
 2.Run xampp(mysql & apache).<br>
-3.Import the regis.sql into a database named as registration.
+3.Import the regis.sql into a database named as registration.<br>
 4.One localhost and run the program.<br>
 5.Enter the username and password.<br>
 6.After login choose the option given below.<br>

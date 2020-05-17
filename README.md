@@ -4,15 +4,15 @@ Problem Statement: Develop a web portal for COVID-19 with data database to help 
 
 Tools used: HTML, CSS, PHP,XAMPP, Javascript
 
-Steps to run:
+Steps to run:<br>
 1.Install Xampp and complete the installation.<br>
-2.Run xampp(mysql & apache)
-3.one localhost and run the program
-4.Enter the username and password 
-5.after login choose the option given below
-6.Add traveler
-7.fill the form and click on done
-8.now go bck and click on records.
-verify the data .
+2.Run xampp(mysql & apache).<br>
+3.one localhost and run the program.<br>
+4.Enter the username and password.<br>
+5.after login choose the option given below.<br>
+6.Add traveler.<br>
+7.fill the form and click on done.<br>
+8.now go bck and click on records.<br>
+verify the data.<br>
 
 In this way it works follow the procedure right manner.

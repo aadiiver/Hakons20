@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Digital Covid</title>
+    <header>
+        <h1><marquee>DIGITAL COVOID-19</marquee></h1>
+    </header>
+<link rel="stylesheet" type="text/css" href="login.css">
+<body>
+<div class="loginbox">
+<img src="admin.jpeg" class="admin">
+<form name="loginform" onSubmit="return validateForm();" method="post">
+    <BR>
+        &nbsp;    
+    <p>USERNAME</p>
+    <input type="text" name="usr" placeholder="Enter username">
+    &nbsp;
+    <p>PASSWORD</p>
+    <input type="password" name="pword" placeholder="Enter password">
+    &nbsp; &nbsp;
+    <input type="submit" name="" value="Login">  
+</form>
+</div>
+    <script>
+        function validateForm()
+        {
+            var un=document.loginform.usr.value;
+            var pw=document.loginform.pword.value;
+            var username="admin";
+            var password="admin@covid19";
+            if((un == username) && (pw == password))
+                {
+                    window.location="options.html"
+                    return false;
+                }
+            else
+                {
+                    alert("Login was unsuccessful, Please check your username or password.")
+                }
+        }
+    </script>
+</body>
+</head>
+</html> 

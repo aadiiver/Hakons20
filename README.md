@@ -11,7 +11,7 @@ Steps to run:<br>
 4.One localhost and run the program.<br>
 5.Enter the username and password.<br>
 6.After login choose the option given below.<br>
-7.Add traveler.<br>
+7.Add traveller.<br>
 8.Fill the form and click on done.<br>
 9.Now go bck and click on records.<br>
 10.Verify the data.<br>

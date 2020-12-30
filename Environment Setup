@@ -1,0 +1,8 @@
+Things to be installed:
+1. XAMPP Server.
+2. Text-Editor (e.g. VS code)
+
+Setup:
+1. Create structure for mysql data in XAMPP local server.
+2. Store the HTML, PHP and JS files in htdocs folder of the xampp folder.
+3. For example, use the database provided in the repo for demo purpose.

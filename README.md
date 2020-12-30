@@ -16,4 +16,4 @@ Steps to run:<br>
 9.Now go bck and click on records.<br>
 10.Verify the data.<br>
 
-In this way it works follow the procedure right manner.
+Follow the above steps for issue free working.

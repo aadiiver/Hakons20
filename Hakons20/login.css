@@ -1,21 +1,23 @@
 body{
+
 	margin: 0;
 	padding: 0;
 	background: url(cov.jpeg);
 	background-size: cover;
 	background-position: centre;
-	font-family: sans-serif;
+    font-family: sans-serif;
 }
 h1{
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
     font-size:50px;
-    color: #fff;
+    color:pink;
     width: 100%;
     height:50px;    
-    background-color: red;
-    font-family: 'Alfa Slab One',cursive;
+    font-family:'Raleway', sans-serif;
+    animation: pulse 5s infinite;
+    animation-direction: alternate;
 }
 .loginbox{
 	width: 320px;
@@ -86,6 +88,7 @@ h2{
     background-color: orange; 
     height: 50px;
     border-radius: 20px;
+    opacity: 0.6;
 }
 
 .login{
@@ -100,11 +103,12 @@ h2{
 }
 
 
-.loginbox input[type="submit"];hover
+.loginbox input[type="submit"]:hover
 {
     cursor: pointer;
-    background: #ffc107;
-    color: #000;
+    background: orange;
+    color:black;
+    opacity: 1;
 }
 
 loginbox a{
@@ -118,3 +122,10 @@ loginbox a{
 {
     color: teal;
 }
+@keyframes pulse {
+    0% {
+      background-color: #001F3F;
+    }
+    100% {
+      background-color: #FF4136;
+    }

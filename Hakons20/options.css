@@ -18,7 +18,7 @@ h1 {
   }
   
 h2{
-   style:background-color:rgba(255, 99, 71, 0.5);
+	/*background-color:rgba(255, 99, 71, 0.5);*/
     font-family: verdana;
     font-size: 34px;
     text-align: center;
@@ -26,15 +26,15 @@ h2{
 	background-color: white;
     text-shadow: 2px 2px;
     border-style: ridge;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin:100px 80px;
   }
   
-#op
-{
-  font-size: 50px;
-  color:brown ;
-    
+#op a{
+	text-decoration:none;
+	font-size: 35px;
+	color:brown;
+	border:3px solid #000;
+	/*border-radius:5px;*/
+	padding:5px 10px;
+	margin:20px;
 }

@@ -9,10 +9,11 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url(reg.jpeg);
+	background: url(reg.jpeg) no-repeat fixed;
 	background-size: cover;
-	background-position: centre;
+	background-position: center;
 	font-family: sans-serif;
+
 }
 h1{
     margin: 0;
@@ -33,19 +34,17 @@ p{
     margin-right: -75px;
 }
 table{
-    background-color: azure;
-    border-spacing: 6px;
-    width: 75%;
-    font-size: 22px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+    background-color:azure; 
+    /*border-spacing: 6px;*/
+    /*width: 75%;*/
+    font-size:18px;
+    text-align:center;
 }
 </style>
 </head>
 <body>
     <p><b>Travellers Details</b></p>
-<table border="5">
+<table border="1">
 <tr>
 <th>S.No</th>
 <th>First Name</th>

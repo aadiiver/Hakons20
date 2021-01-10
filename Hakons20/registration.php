@@ -2,46 +2,51 @@
 error_reporting(0);
 ?>
 <html>
-<head>
+	<head>
     <title>Digital Covid</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     </head>
 	<style>
         
 	body{
     margin: 0;
 	padding: 0;
-	background: url(reg.jpeg);
-
+	background: url(reg.jpeg) no-repeat fixed;
 	background-size: cover;
-	background-position: centre;
+	background-position:center;
 	font-family: sans-serif;
     }
 	h1{
-		margin: 0;
-		padding: 0 0 20px;
-		text-align: center;
-		font-size:50px;
-		color: #fff;
-		width: 100%;
-		height:50px;    
-		background-color:mediumseagreen;
-		font-family: 'Alfa Slab One',cursive;
+	margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size:40px;
+    color: #fff;
+    width: 100%;
+    height:60px;    
+    background-color: mediumseagreen;
+    font-family: 'Alfa Slab One',cursive;
+    font-weight:bold;
+    position:fixed;
+    top:0;
 	}
 	h2{
 		margin: 100;
 		padding: 0 0 20px;
-		text-align: centre;
+		text-align: center;
 		font-size: 40px;
 		color: white;
-		margin-left: 570px;
 		margin-bottom:10px;
+		color:#fff;
 	}
 	form{
 		margin: 20px auto;
-		width: 320px;
+		/*width: 320px;*/
 		color: red;
 		background: white;
-		padding: 20px;
+		padding: 30px 20px;
+		border-radius:5px;
 	}
 	input{
 		padding: 10px;
@@ -78,12 +83,16 @@ error_reporting(0);
 	input[type="radio"]{
 		margin-left: 0;
 	}
+	.submit{
+		text-align:center;
+	}
 	input[type="submit"]{
 		width:320px;
-		height: 45px;
-		border: solid red;
+		/*height: 45px;*/ 
+		border:2px solid red;
 		background: steelblue;
 		color: white;
+
 	}
 	input:focus{
 		background: white;
@@ -98,45 +107,79 @@ error_reporting(0);
     </header>
 <body>
     <h2>Traveller Reg. Form</h2>
-        <form action="" method="POST" enctype="multipart/form-data">
+    <div class="container">
+    	<form action="" method="POST" enctype="multipart/form-data">
+    	<div class="row">
+    		<div class="col-md-4">
                 <label>Image:</label>&nbsp;
 				<div id="photo">
                 <input type="file" name="uploadfile" value="" required/>
 				</div>
+			</div>
+			<div class="col-md-4">
                 <label>First Name:</label><br>
                 <input type="text" name="firstName" required><br>
+            </div>
+            <div class="col-md-4">
                 <label>Last Name:</label><br>
                 <input type="text" name="lastName" required><br>
-                <div>
+           	</div>
+        </div>
+        <div class="row">
+           	<div class="col-md-4">
                 <label><b>Gender:</b></label>
 
                 <input type="radio" name="gender" id="Male" value="m"><span id="Male">Male</span>
                  <input type="radio" name="gender"  id="Female" value="f"><span id="Female">Female</span>
                  <input type="radio" name="gender" id="Others" value="o"><span id="Others">Others</span>
-                </div>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-4">
                 <label>Local Address:</label><br>
                 <input type="text" name="LAddress" required><br>
+        	</div>
+        	<div class="col-md-4">
                 <label>Permanent Address:</label><br>
                 <input type="text" name="PAddress" required><br> 
-				<label>Symptoms</label>
+            </div>
+        	<div class="col-md-4">
+				<label>Symptoms:</label>
 				<input type="text" name="Sym" required><br>
-				<label>Medication</label>
+			</div>
+        </div>
+		<div class="row">
+			<div class="col-md-4">
+				<label>Medication:</label>
 				<input type="text" name="Med" required><br>
-				<div>
+			</div>
+		</div>
+		<div class="row">
+        	<div class="col-md-4">
 				<label><b>Travel History:</b></label>
 
                 <input type="radio" name="zone" id="Red" value="r"><span id="Male">Red</span>
                  <input type="radio" name="zone"  id="Orange" value="o"><span id="Female">Orange</span>
                  <input type="radio" name="zone" id="Green" value="g"><span id="Others">Green</span>
-                </div>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-4">
                 <label>Mobile Number:</label><br>
                 <input type="text" name="Mob" id="num" maxlength="10" required><br>
+            </div>
+        	<div class="col-md-4">
                 <label>E-mail Address:</label><br>
                 <input type="text" name="Email"><br>
-                <label>Aadhaar No:</label><br>
-                <input type="text" name="Aadhaar" maxlength="12" required><br>
-                
+            </div>
+        	<div class="col-md-4">
+        		<label>Aadhaar No:</label><br>
+            	<input type="text" name="Aadhaar" maxlength="12" required><br>
+            </div>
+        </div>
+        <div class="submit">
             <input type="submit" value="Submit" name="submit">
+        </div>
         </form>
 <?php
 	$servername='localhost';
